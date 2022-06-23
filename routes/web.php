@@ -21,3 +21,8 @@ Route::get('/', function () {
 
     return view('comics', ['comics'=> $data]);
 });
+
+Route::get('/characters', function () {
+
+    return view('characters');
+});

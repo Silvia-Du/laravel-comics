@@ -5,17 +5,18 @@
         <img src="{{ asset('img/dc-logo.png') }}" alt="logo-img">
       </div>
       <div class="sd-nav">
+
         <ul>
-          <li><a href="item.href">characters</a></li>
-          <li><a href="item.href">comics</a></li>
-          <li><a href="item.href">movies</a></li>
-          <li><a href="item.href">tv</a></li>
-          <li><a href="item.href">Games</a></li>
-          <li><a href="item.href">collectibles</a></li>
-          <li><a href="item.href">videos</a></li>
-          <li><a href="item.href">fans</a></li>
-          <li><a href="item.href">news</a></li>
-          <li><a href="item.href">shop</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'characters'? 'active': '' }}" href="">characters</a></li>
+          {{-- <li><a class="{{ Route::currentRouteName() === 'comics'? 'active': '' }}" href="">comics</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'movies'? 'active': '' }}" href="">movies</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'tv'? 'active': '' }}" href="">tv</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'games'? 'active': '' }}" href="">games</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'collectibles'? 'active': '' }}" href="">collectibles</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'videos'? 'active': '' }}" href="">videos</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'fans'? 'active': '' }}" href="">fans</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'news'? 'active': '' }}" href="">news</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'shop'? 'active': '' }}" href="">shop</a></li> --}}
         </ul>
       </div>
     </div>
