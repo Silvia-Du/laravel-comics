@@ -1,0 +1,22 @@
+
+@mixin dFlexAlign(){
+  display: flex;
+  align-items: center;
+}
+
+@mixin dFlexBetween(){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin backGround(){
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin textImportant(){
+  text-transform: uppercase;
+  font-weight: bold;
+}
+

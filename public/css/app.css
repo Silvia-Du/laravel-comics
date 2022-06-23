@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.debug {
+  background-color: rgba(165, 42, 42, 0.568);
+  border: 1px solid black;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background-color: white;
+  display: flex;
+}
+header .logo img {
+  width: 70px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sd-nav {
+  height: 100%;
+}
+.sd-nav ul {
+  height: 100%;
+  display: flex;
+  list-style: none;
+}
+.sd-nav ul li {
+  height: 100%;
+  border-bottom: 3px solid white;
+  display: flex;
+  align-items: center;
+}
+.sd-nav ul li:hover, .sd-nav ul li.active {
+  border-bottom: 3px solid #0282f9;
+}
+.sd-nav ul li:hover a, .sd-nav ul li.active a {
+  color: #0282f9;
+}
+.sd-nav ul li a {
+  text-decoration: none;
+  color: #494c4f;
+  margin: 0 15px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+footer .top {
+  height: 350px;
+  overflow: hidden;
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+footer .bottom {
+  height: 90px;
+  background-color: #303030;
+}
+
+.top .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top .container img {
+  width: 500px;
+}
+
+.list-container {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 30px;
+}
+.list-container .list {
+  margin-right: 30px;
+}
+.list-container .list p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.list-container .list ul li {
+  list-style: none;
+}
+.list-container .list ul li a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(117, 111, 111);
+  margin: 10px 0;
+}
+
+.bottom .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.bottom .container .button {
+  display: inline-block;
+  border: 2px solid #0282f9;
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+.bottom .container .cta-social {
+  display: flex;
+  align-items: center;
+}
+.bottom .container .cta-social p {
+  font-size: 1.1rem;
+  margin-right: 10px;
+  color: #0282f9;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.bottom .container .cta-social a {
+  margin-left: 15px;
+}
+.bottom .container .cta-social a img {
+  width: 90%;
+}
