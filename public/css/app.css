@@ -117,6 +117,33 @@ main .current-series .btn-cta {
   width: 100%;
 }
 
+.shop-row {
+  color: white;
+  background-color: #0282f9;
+}
+.shop-row .container {
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+.item:last-child img {
+  height: auto;
+  width: 70px;
+}
+.item img {
+  height: 60px;
+}
+.item p {
+  font-size: 0.9rem;
+  margin-left: 25px;
+  text-transform: uppercase;
+}
+
 footer .top {
   height: 350px;
   overflow: hidden;

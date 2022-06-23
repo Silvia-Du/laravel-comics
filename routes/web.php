@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = config('comics');
+    // $dataForeach = config('foreach');
+
 
     return view('comics', ['comics'=> $data]);
 });

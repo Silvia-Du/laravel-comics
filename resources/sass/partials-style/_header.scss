@@ -1,0 +1,42 @@
+
+header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    .logo img{
+      width: 70px;
+    }
+  }
+
+  .container{
+    @include dFlexAlign();
+    justify-content: space-between;
+  }
+
+  .sd-nav{
+    height: 100%;
+    ul{
+      height: 100%;
+      display: flex;
+      list-style: none;
+      li{
+        &:hover, &.active{
+          border-bottom: 3px solid $brandColor;
+          a{
+            color: $brandColor;
+          }
+        }
+        height: 100%;
+        border-bottom: 3px solid white;
+        @include dFlexAlign;
+        a{
+          text-decoration: none;
+          color: #494c4f;
+          margin: 0 15px;
+          font-size: 0.9rem;
+          @include textImportant;
+        }
+      }
+    }
+  }

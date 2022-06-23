@@ -1,26 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&family=Lato&display=swap');
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body{
-    font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
 }
 
 .debug{
-    background-color: rgba(165, 42, 42, 0.568);
-    border: 1px solid black;
+  background-color: rgba(165, 42, 42, 0.568);
+  border: 1px solid black;
 }
 
 .container{
-    width: 70%;
-    margin: 0 auto;
+  width: 70%;
+  margin: 0 auto;
 }
 
 
+@mixin dFlexAlign(){
+    display: flex;
+    align-items: center;
+  }
 
+  @mixin dFlexBetween(){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
+  @mixin backGround(){
+    background-size: cover;
+    background-position: center;
+  }
 
+  @mixin textImportant(){
+    text-transform: uppercase;
+    font-weight: bold;
+  }

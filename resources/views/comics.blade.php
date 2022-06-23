@@ -14,16 +14,17 @@
         <div class="flag">
           <p>Current Series</p>
         </div>
+
+        {{-- CARD --}}
         @foreach ( $comics as $comic )
         <div class="card">
+
             <div class="img-box">
-              <img src="{{ $comic->image }}" alt="cardItem.type">
+                <img src="{{ $comic->image }}" alt="cardItem.type">
             </div>
 
             <p>{{ $comic->title }}</p>
-          </div>
-
-        {{-- @yield('cardItem') --}}
+        </div>
         @endforeach
 
       </div>
@@ -31,8 +32,19 @@
       <div class="btn-cta"><p>Load More</p></div>
 
     </div>
-    <!-- Shop Row -->
-    {{-- <ShopRow /> --}}
+    {{-- SHOP ROW --}}
+    <div class="shop-row">
+        <div class="container">
+
+          <div
+            {{-- v-for di ctaShopItems --}}>
+            <a :href=""><img src="" alt=""></a>
+            <p></p>
+          </div>
+
+        </div>
+      </div>
+
 
   </main>
 

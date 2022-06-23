@@ -1,0 +1,94 @@
+
+  //MAIN
+
+  main{
+    color: white;
+    .jumbotron {
+      height: 420px;
+      background-image: url(../img/jumbotron.jpg);
+      background-size: cover;
+      background-position: inherit;
+    }
+
+    .current-series {
+    min-height: 100px;
+    background-color: #1c1c1c;
+    text-align: center;
+
+    .container {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      flex-wrap: wrap;
+      padding: 50px 0 40px 0;
+
+      .flag {
+      position: absolute;
+      top: -26px;
+      left: 0;
+      padding: 10px 25px;
+      color: white;
+      font-size: 1.9rem;
+      @include textImportant;
+      background-color: $brandColor;
+      }
+    }
+
+    .btn-cta {
+      display: inline-block;
+      padding: 10px 75px;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      background-color: $brandColor;
+    }
+
+  }
+  }
+
+  //CARD
+
+  .card{
+    margin: 20px 15px;
+    width: 190px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    .img-box{
+      height: 190px;
+      overflow: hidden;
+      margin-bottom: 15px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+  //SHOP ROW
+
+  .shop-row{
+    color: white;
+    background-color: #0282f9;
+    .container{
+      padding: 40px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .item{
+    @include dFlexAlign;
+    &:last-child{
+        img{
+          height: auto;
+          width: 70px;
+        }
+      }
+    img{
+      height: 60px;
+    }
+
+    p{
+      font-size: $mainfontSize;
+      margin-left: 25px;
+      text-transform: uppercase;
+    }
+  }
