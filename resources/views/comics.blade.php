@@ -36,11 +36,31 @@
     <div class="shop-row">
         <div class="container">
 
-          <div
-            {{-- v-for di ctaShopItems --}}>
-            <a :href=""><img src="" alt=""></a>
-            <p></p>
-          </div>
+            {{-- v-for di ctaShopItems --}}
+            <div class="item">
+              <a href="#"><img src="{{ asset('img/buy-comics-digital-comics.png') }}" alt="digital-comics"></a>
+              <p>digital comics</p>
+            </div>
+
+            <div class="item">
+              <a href="#"><img src="{{ asset('img/buy-comics-merchandise.png') }}" alt="merchandise"></a>
+              <p>dc merchandise</p>
+            </div>
+
+            <div class="item">
+              <a href="#"><img src="{{ asset('img/buy-comics-subscriptions.png') }}" alt="suscription"></a>
+              <p>digital comics</p>
+            </div>
+
+            <div class="item">
+              <a href="#"><img src="{{ asset('img/buy-comics-shop-locator.png') }}" alt="comic-shop-locator"></a>
+              <p>comic shop locator</p>
+            </div>
+
+            <div class="item">
+              <a href="#"><img src="{{ asset('img/buy-dc-power-visa.svg') }}" alt="power-visa"></a>
+              <p>dc power visa</p>
+            </div>
 
         </div>
       </div>

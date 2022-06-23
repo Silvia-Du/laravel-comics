@@ -138,7 +138,35 @@ $icons=[
       'name' => 'DC Powe Visa',
       'href' => '#'
     ]
-  ]
+    ];
+
+    $ctaShopItems = [
+        [
+          'name'=> 'digital comics',
+          'image' => 'img/buy-comics-digital-comics.png',
+          'href' => '#'
+        ],
+        [
+          'name'=> 'dc merchandise',
+          'image' => 'img/buy-comics-merchandise.png',
+          'href' => '#'
+        ],
+        [
+          'name'=> 'subscription',
+          'image' => 'img/buy-comics-subscriptions.png',
+          'href' => '#'
+        ],
+        [
+          'name'=> 'comic shop locator',
+          'image' => 'img/buy-comics-shop-locator.png',
+          'href' => '#'
+        ],
+        [
+          'name'=> 'dc power visa',
+          'image' => 'img/buy-dc-power-visa.svg',
+          'href' => '#'
+        ],
+      ]
 
 
 ?>
