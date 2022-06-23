@@ -62,10 +62,65 @@ header .logo img {
   font-weight: bold;
 }
 
+main {
+  color: white;
+}
+main .jumbotron {
+  height: 420px;
+  background-image: url(../img/jumbotron.jpg);
+  background-size: cover;
+  background-position: inherit;
+}
+main .current-series {
+  min-height: 100px;
+  background-color: #1c1c1c;
+  text-align: center;
+}
+main .current-series .container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 50px 0 40px 0;
+}
+main .current-series .container .flag {
+  position: absolute;
+  top: -26px;
+  left: 0;
+  padding: 10px 25px;
+  color: white;
+  font-size: 1.9rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #0282f9;
+}
+main .current-series .btn-cta {
+  display: inline-block;
+  padding: 10px 75px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  background-color: #0282f9;
+}
+
+.card {
+  margin: 20px 15px;
+  width: 190px;
+  text-transform: uppercase;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.card .img-box {
+  height: 190px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.card .img-box img {
+  width: 100%;
+}
+
 footer .top {
   height: 350px;
   overflow: hidden;
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url(../img/footer-bg.jpg);
   background-size: cover;
   background-position: center;
 }
