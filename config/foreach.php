@@ -1,6 +1,6 @@
 <?php
 
-$icons=[
+$icons = [
     [
       'name'=>'facebook-icon',
       'image'=> '/img/footer-facebook.png',
@@ -27,6 +27,7 @@ $icons=[
       'href'=> '#'
     ],
 ];
+
 
   $dcComicsList=[
     [
@@ -59,114 +60,117 @@ $icons=[
     ]
     ];
 
-  $shopList=[
-     [
-      'name'=> 'shop DC',
-      'href'=> '#'
-    ],
-     [
-      'name'=> 'Shop DC Collectibles',
-      'href'=> '#'
-    ]
-     ];
+return [$icons, $dcComicsList];
 
-  $dcList=[
-    [
-      'name'=> 'therms Of Use',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'Privacy policy (New)',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'ad choice',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'advertising',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'jobs',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'Subscriptions',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'talent Workshop',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'CPSC Certficates',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'ratings',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'shop Help',
-      'href'=> '#'
-    ],
-    [
-      'name'=> 'contact Us',
-      'href'=> '#'
-    ],
-];
 
-  $sitesList=[
-    [
-      'name' => 'DC',
-      'href' => '#'
-    ],
-    [
-      'name' => 'MAD Magazine',
-      'href' => '#'
-    ],
-    [
-      'name' => 'DC Kids',
-      'href' => '#'
-    ],
-    [
-      'name' => 'DC Universe',
-      'href' => '#'
-    ],
-    [
-      'name' => 'DC Powe Visa',
-      'href' => '#'
-    ]
-    ];
+//   $shopList=[
+//      [
+//       'name'=> 'shop DC',
+//       'href'=> '#'
+//     ],
+//      [
+//       'name'=> 'Shop DC Collectibles',
+//       'href'=> '#'
+//     ]
+//      ];
 
-    $ctaShopItems = [
-        [
-          'name'=> 'digital comics',
-          'image' => 'img/buy-comics-digital-comics.png',
-          'href' => '#'
-        ],
-        [
-          'name'=> 'dc merchandise',
-          'image' => 'img/buy-comics-merchandise.png',
-          'href' => '#'
-        ],
-        [
-          'name'=> 'subscription',
-          'image' => 'img/buy-comics-subscriptions.png',
-          'href' => '#'
-        ],
-        [
-          'name'=> 'comic shop locator',
-          'image' => 'img/buy-comics-shop-locator.png',
-          'href' => '#'
-        ],
-        [
-          'name'=> 'dc power visa',
-          'image' => 'img/buy-dc-power-visa.svg',
-          'href' => '#'
-        ],
-      ]
+//   $dcList=[
+//     [
+//       'name'=> 'therms Of Use',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'Privacy policy (New)',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'ad choice',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'advertising',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'jobs',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'Subscriptions',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'talent Workshop',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'CPSC Certficates',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'ratings',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'shop Help',
+//       'href'=> '#'
+//     ],
+//     [
+//       'name'=> 'contact Us',
+//       'href'=> '#'
+//     ],
+// ];
+
+//   $sitesList=[
+//     [
+//       'name' => 'DC',
+//       'href' => '#'
+//     ],
+//     [
+//       'name' => 'MAD Magazine',
+//       'href' => '#'
+//     ],
+//     [
+//       'name' => 'DC Kids',
+//       'href' => '#'
+//     ],
+//     [
+//       'name' => 'DC Universe',
+//       'href' => '#'
+//     ],
+//     [
+//       'name' => 'DC Powe Visa',
+//       'href' => '#'
+//     ]
+//     ];
+
+//     $ctaShopItems = [
+//         [
+//           'name'=> 'digital comics',
+//           'image' => 'img/buy-comics-digital-comics.png',
+//           'href' => '#'
+//         ],
+//         [
+//           'name'=> 'dc merchandise',
+//           'image' => 'img/buy-comics-merchandise.png',
+//           'href' => '#'
+//         ],
+//         [
+//           'name'=> 'subscription',
+//           'image' => 'img/buy-comics-subscriptions.png',
+//           'href' => '#'
+//         ],
+//         [
+//           'name'=> 'comic shop locator',
+//           'image' => 'img/buy-comics-shop-locator.png',
+//           'href' => '#'
+//         ],
+//         [
+//           'name'=> 'dc power visa',
+//           'image' => 'img/buy-dc-power-visa.svg',
+//           'href' => '#'
+//         ],
+//       ]
 
 
 ?>

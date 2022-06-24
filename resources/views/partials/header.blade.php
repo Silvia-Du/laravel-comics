@@ -7,7 +7,7 @@
       <div class="sd-nav">
 
         <ul>
-          <li><a class="{{ Route::currentRouteName() === 'characters'? 'active': '' }}" href="">characters</a></li>
+          <li><a class="{{ Route::currentRouteName() === 'characters'? 'active': '' }}" href="{{ route('characters') }}">characters</a></li>
           {{-- <li><a class="{{ Route::currentRouteName() === 'comics'? 'active': '' }}" href="">comics</a></li>
           <li><a class="{{ Route::currentRouteName() === 'movies'? 'active': '' }}" href="">movies</a></li>
           <li><a class="{{ Route::currentRouteName() === 'tv'? 'active': '' }}" href="">tv</a></li>

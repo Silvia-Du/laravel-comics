@@ -2,6 +2,6 @@
 
 @section('content')
 
-<h1>CHARACTERS PAGE</h1>
+<h1>CHARACTERS</h1>
 
 @endsection
