@@ -2,6 +2,7 @@
 
 @section('content')
 
+
 <main>
     <!-- jumbotron -->
     <div class="jumbotron"></div>

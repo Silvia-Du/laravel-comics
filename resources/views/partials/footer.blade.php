@@ -1,5 +1,8 @@
 <footer class="debug">
 
+    @dump($lists[0]);
+
+
     <!-- top -->
     <div class="top">
 
@@ -10,13 +13,10 @@
             <p>Dc Comics</p>
             <ul
             >
-              <li><a href="#">Characters</a></li>
-              <li><a href="#">comics</a></li>
-              <li><a href="#">movies</a></li>
-              <li><a href="#">TV</a></li>
-              <li><a href="#">games</a></li>
-              <li><a href="#">videos</a></li>
-              <li><a href="#">news</a></li>
+            @foreach ($lists[1] as $list)
+
+            <li><a href="{{ $list['href'] }}">{{ $list['name'] }}</a></li>
+            @endforeach
 
             </ul>
             <p>Shop</p>

@@ -16,14 +16,21 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $data = config('comics');
-    $dataForeach = config('foreach');
-    dd($dataForeach);
+    $dataForeach = config('lists');
 
+    return view('pages.comics', ['comics'=> $data, 'lists'=> $dataForeach]);
+})->name('comics');
 
-    return view('comics', ['comics'=> $data]);
-});
+Route::get('/fans', function () {
+
+    return view('pages.fans');
+
+})->name('fans');
 
 Route::get('/characters', function () {
 
-    return view('characters');
-});
+    return view('pages.characters');
+
+})->name('characters');
+
+
