@@ -21,16 +21,31 @@ Route::get('/', function () {
     return view('pages.comics', ['comics'=> $data, 'lists'=> $dataForeach]);
 })->name('comics');
 
+
 Route::get('/fans', function () {
 
-    return view('pages.fans');
+    $dataForeach = config('lists');
+
+    return view('pages.fans', ['lists'=> $dataForeach]);
 
 })->name('fans');
 
+
 Route::get('/characters', function () {
 
-    return view('pages.characters');
+    $dataForeach = config('lists');
+
+    return view('pages.characters', ['lists'=> $dataForeach]);
 
 })->name('characters');
+
+
+Route::get('/movies', function () {
+
+    $dataForeach = config('lists');
+
+    return view('pages.movies', ['lists'=> $dataForeach]);
+
+})->name('movies');
 
 

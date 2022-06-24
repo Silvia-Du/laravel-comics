@@ -138,7 +138,7 @@ $icons = [
       'href' => '#'
     ],
     [
-      'name' => 'DC Powe Visa',
+      'name' => 'DC Power Visa',
       'href' => '#'
     ]
     ];
