@@ -9,15 +9,15 @@
           <div class="list">
             <p>Dc Comics</p>
             <ul>
-                @foreach ($lists[1] as $list)
-                <li><a href="{{ $list['href'] }}">{{ $list['name'] }}</a></li>
+                @foreach ($lists[1] as $listItem)
+                <li><a href="{{ $listItem['href'] }}">{{ $listItem['name'] }}</a></li>
                 @endforeach
 
             </ul>
             <p>Shop</p>
             <ul>
-              @foreach ($lists[2] as $list)
-              <li><a href="{{ $list['href'] }}">{{ $list['name'] }}</a></li>
+              @foreach ($lists[2] as $listItem)
+              <li><a href="{{ $listItem['href'] }}">{{ $listItem['name'] }}</a></li>
               @endforeach
             </ul>
           </div>
@@ -25,8 +25,8 @@
             <p>Dc</p>
             {{-- cui vfor dcList --}}
             <ul>
-                @foreach ($lists[3] as $list)
-                <li><a href="{{ $list['href'] }}">{{ $list['name'] }}</a></li>
+                @foreach ($lists[3] as $listItem)
+                <li><a href="{{ $listItem['href'] }}">{{ $listItem['name'] }}</a></li>
                 @endforeach
             </ul>
           </div>
@@ -34,8 +34,8 @@
             <p>Sites</p>
             {{-- qui c'è un for di sitesList --}}
             <ul>
-                @foreach ($lists[4] as $list)
-                <li><a href="{{ $list['href'] }}">{{ $list['name'] }}</a></li>
+                @foreach ($lists[4] as $listItem)
+                <li><a href="{{ $listItem['href'] }}">{{ $listItem['name'] }}</a></li>
                 @endforeach
             </ul>
           </div>

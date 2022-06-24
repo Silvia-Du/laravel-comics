@@ -1,5 +1,8 @@
 @extends('layouts.main')
 
 @section('content')
-<h1>CHARACTERS</h1>
+<div class="container space">
+
+    <h1>CHARACTERS</h1>
+</div>
 @endsection

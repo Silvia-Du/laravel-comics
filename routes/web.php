@@ -22,19 +22,9 @@ Route::get('/', function () {
 })->name('comics');
 
 
-Route::get('/fans', function () {
-
-    $dataForeach = config('lists');
-
-    return view('pages.fans', ['lists'=> $dataForeach]);
-
-})->name('fans');
-
-
 Route::get('/characters', function () {
 
     $dataForeach = config('lists');
-
     return view('pages.characters', ['lists'=> $dataForeach]);
 
 })->name('characters');
@@ -43,9 +33,61 @@ Route::get('/characters', function () {
 Route::get('/movies', function () {
 
     $dataForeach = config('lists');
-
     return view('pages.movies', ['lists'=> $dataForeach]);
 
 })->name('movies');
+
+Route::get('/tv', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.tv', ['lists'=> $dataForeach]);
+
+})->name('tv');
+
+Route::get('/games', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.games', ['lists'=> $dataForeach]);
+
+})->name('games');
+
+Route::get('/collectibles', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.collectibles', ['lists'=> $dataForeach]);
+
+})->name('collectibles');
+
+Route::get('/videos', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.videos', ['lists'=> $dataForeach]);
+
+})->name('videos');
+
+Route::get('/fans', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.fans', ['lists'=> $dataForeach]);
+
+})->name('fans');
+
+Route::get('/news', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.news', ['lists'=> $dataForeach]);
+
+})->name('news');
+
+Route::get('/shop', function () {
+
+    $dataForeach = config('lists');
+    return view('pages.shop', ['lists'=> $dataForeach]);
+
+})->name('shop');
+
+
+
+
 
 

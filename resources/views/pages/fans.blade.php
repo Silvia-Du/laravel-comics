@@ -1,5 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-<h1>FANS</h1>
+<div class="container my-5">
+    <h1>FANS</h1>
+</div>
 @endsection

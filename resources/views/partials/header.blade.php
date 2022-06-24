@@ -7,16 +7,12 @@
       <div class="sd-nav">
 
         <ul>
-          <li><a class="{{ Route::currentRouteName() === 'characters'? 'active': '' }}" href="{{ route('characters') }}">characters</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'comics'? 'active': '' }}" href="{{ route('comics') }}">comics</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'movies'? 'active': '' }}" href="">movies</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'tv'? 'active': '' }}" href="">tv</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'games'? 'active': '' }}" href="">games</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'collectibles'? 'active': '' }}" href="">collectibles</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'videos'? 'active': '' }}" href="">videos</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'fans'? 'active': '' }}" href="{{ route('fans') }}">fans</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'news'? 'active': '' }}" href="">news</a></li>
-          <li><a class="{{ Route::currentRouteName() === 'shop'? 'active': '' }}" href="">shop</a></li>
+            @foreach ($lists[6] as $listItem)
+
+            <li class="{{ Route::currentRouteName() === $listItem['name'] ? 'active' : ''}}"><a class="{{ Route::currentRouteName() === $listItem['name'] ? 'active' : ''}}" href="{{ route($listItem['name']) }}">{{ $listItem['name'] }}</a></li>
+
+            @endforeach
+
         </ul>
       </div>
     </div>

@@ -1,30 +1,32 @@
 <?php
 
+
+
 $icons = [
     [
       'name'=>'facebook-icon',
       'image'=> '/img/footer-facebook.png',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=>'twitter-icon',
       'image'=> '/img/footer-twitter.png',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=>'you-tube-icon',
       'image'=> '/img/footer-youtube.png',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=>'pinterest-icon',
       'image'=> '/img/footer-pinterest.png',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=>'facebook-icon',
       'image'=> '/img/footer-periscope.png',
-      'href'=> '#'
+      'href'=>'#'
     ],
 ];
 
@@ -32,31 +34,31 @@ $icons = [
   $dcComicsList=[
     [
       'name'=> 'Characters',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'comics',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'movies',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'TV',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'games',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'videos',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'news',
-      'href'=> '#'
+      'href'=>'#'
     ]
     ];
 
@@ -65,58 +67,58 @@ $icons = [
   $shopList=[
      [
       'name'=> 'shop DC',
-      'href'=> '#'
+      'href'=>'#'
     ],
      [
       'name'=> 'Shop DC Collectibles',
-      'href'=> '#'
+      'href'=>'#'
     ]
      ];
 
   $dcList=[
     [
       'name'=> 'therms Of Use',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'Privacy policy (New)',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'ad choice',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'advertising',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'jobs',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'Subscriptions',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'talent Workshop',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'CPSC Certficates',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'ratings',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'shop Help',
-      'href'=> '#'
+      'href'=>'#'
     ],
     [
       'name'=> 'contact Us',
-      'href'=> '#'
+      'href'=>'#'
     ],
 ];
 
@@ -171,7 +173,62 @@ $icons = [
         ],
     ];
 
-return [$icons, $dcComicsList, $shopList, $dcList, $sitesList, $ctaShopItems];
+    //FOOTER LISTS
+
+    $menuItems = [
+        [
+          'href'=> '#',
+          'name'=>'characters',
+          'active'=> true,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'comics',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'movies',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'tv',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'games',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'collectibles',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'videos',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'fans',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'news',
+          'active'=> false,
+        ],
+        [
+          'href'=> '#',
+          'name'=>'shop',
+          'active'=> false,
+        ]
+    ];
+
+return [$icons, $dcComicsList, $shopList, $dcList, $sitesList, $ctaShopItems, $menuItems];
 
 
 
