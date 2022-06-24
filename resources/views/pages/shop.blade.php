@@ -5,3 +5,6 @@
     <h1>SHOP</h1>
 </div>
 @endsection
+
+@section('title', 'Shop')
+

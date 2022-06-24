@@ -5,3 +5,6 @@
     <h1>TV</h1>
 </div>
 @endsection
+
+@section('title', 'Tv')
+

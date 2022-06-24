@@ -5,3 +5,6 @@
     <h1>VIDEOS</h1>
 </div>
 @endsection
+
+@section('title', 'Videos');
+

@@ -5,3 +5,6 @@
     <h1>FANS</h1>
 </div>
 @endsection
+
+@section('title', 'Fans')
+

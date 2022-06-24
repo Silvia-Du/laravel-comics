@@ -5,3 +5,6 @@
     <h1>GAMES</h1>
 </div>
 @endsection
+
+@section('title', 'Games')
+

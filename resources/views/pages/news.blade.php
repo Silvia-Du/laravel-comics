@@ -5,3 +5,6 @@
     <h1>NEWS</h1>
 </div>
 @endsection
+
+@section('title', 'News')
+

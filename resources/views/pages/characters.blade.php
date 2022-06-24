@@ -6,3 +6,6 @@
     <h1>CHARACTERS</h1>
 </div>
 @endsection
+
+@section('title', 'Characters')
+

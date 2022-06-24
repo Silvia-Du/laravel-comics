@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-    <title>Laravel Comics</title>
+    <title>Laravel Comics | @yield('title')</title>
 </head>
 <body>
 

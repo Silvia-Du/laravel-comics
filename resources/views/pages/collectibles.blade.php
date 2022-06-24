@@ -5,3 +5,6 @@
     <h1>COLLECTIBLES</h1>
 </div>
 @endsection
+
+@section('title', 'Collectibles');
+
